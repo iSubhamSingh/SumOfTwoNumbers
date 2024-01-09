@@ -5,6 +5,7 @@ function add_number() {
 
     if (isNaN(first_number) || isNaN(second_number)) {
         alert("Please enter valid numbers in both fields");
+        eraseText();
         return;
     }
 
